@@ -1,64 +1,24 @@
-<div style="background: black;">
-<p align="center" style="margin: 0;">
-  <a href="https://dev.marblism.com" target="blank">
-    <img src="https://marblism-dashboard-api--production-public.s3.us-west-1.amazonaws.com/marblism-logo.png" height="150" alt="Marblism Logo" />
-  </a>
-</p>
-<h1 align="center" style="margin: 0;">In Marble We Trust</h1>
+## Description
 
-<a  style="margin: 0;" target="_blank" href="https://marblism.com">
-<p align="center" style="margin: 0; letter-spacing: 3px;
-text-decoration: none;">
-marblism
-</p>
-</a>
-</div>
-<div style="height: 50px; background: linear-gradient(#000000, transparent);"></div>
+A web-app focused on connecting social impact projects with potential investors, promoting sustainability and change.
 
-## Documentation
+You can create an Account and either be a project organizer or investor.
 
-Learn more in the [official documentation](https://dev.marblism.com).
+The project organizer can create and add new projects, with their project name, company name, description, investment needed, and area of impact.
 
-## Installation
+The investor can choose and invest in any project of his choice and connect with the project organizer
 
-<div style="color: red;">
+## Techstack
+  
+  HTML 
+  SCSS
+  Typescript + React
 
-> ⚠️ **Important**<br/>Make sure the following tools are installed on your computer
 
-<p align="center">
+## Files description
+  
+  The web folder contains all the frontend for the application.
+  The main code is in the ./src/app folder, it contains two folders `(authenicated)` and `(non-authenicated)`.
 
-<a target="_blank" href="https://www.docker.com/get-started/">![Docker Desktop Version](https://img.shields.io/badge/Docker%20Desktop-4.19.0-black?logo=docker)</a>
-<a target="_blank" href="https://nodejs.org/en">![Node.js version](https://img.shields.io/badge/Node.js-20.11.0-black?logo=nodedotjs)</a>
-<a target="_blank" href="https://www.npmjs.com/">![npm Version](https://img.shields.io/badge/npm-10.2.4-black?logo=npm)</a>
-
-</p>
-</div>
-
-<br />
-
-```bash
-$ pnpm run init
-```
-
-## Development
-
-```bash
-$ pnpm run dev
-```
-
-[View your application in your browser](http://localhost:8099)
-
-## Production
-
-```bash
-$ pnpm run build
-$ pnpm run start
-```
-
-## Support
-
-We reply FAST on our <a target="_blank" href="https://discord.gg/GScNz7kAEu">Discord server</a>.
-
-## Stay in touch
-
-[@marblismAI](https://twitter.com/marblismAI)
+  `(authenticated)` folder contains all the main pages - create-project, dashboard, home, messages, notfication, profile, and projects pages, and the 
+  `(non-authenticated` folder layout and other error handling components
